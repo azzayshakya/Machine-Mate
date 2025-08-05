@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito+Sans:wght@200;1000&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  :root {
+    --background: #ffffff;
+    --foreground: #1B1B1C;
+    --card: #ffffff;
+    --card-foreground: #031F30;
+    --popover: #ffffff;
+    --popover-foreground: #031F30;
+
+    --navy-blue: #031F30;
+    --primary: #0868f8;
+    --primary-foreground: #ffffff;
+
+    --secondary: #7B5CFF;
+    --secondary-foreground: #ffffff;
+
+    --light-green: #20B228;
+    --muted: #F7FBFD;
+    --muted-foreground: #5C5F63;
+
+    --destructive: #f9d6d6;
+    --destructive-foreground: #ec2b2b;
+
+    --success: #d1fff1;
+    --success-foreground: #35d9a8;
+
+    --warning: #fdf2ca;
+    --warning-foreground: #ffb443;
+
+    --info: #deeDff;
+    --info-foreground: #3daeff;
+
+    --border: #d9d7df;
+    --input: #eae8f0;
+    --ring: #7B5CFF;
+    --icon: #031F30;
+    --radius: 0.6rem;
+  }
+
+  .dark {
+    --background: #ffffff;
+    --foreground: #1B1B1C;
+    --navy-blue: #031F30;
+    --primary: #0868f8;
+    --primary-foreground: #ffffff;
+    --secondary: #7B5CFF;
+    --secondary-foreground: #ffffff;
+
+    --light-green: #20B228;
+    --muted: #F7FBFD;
+    --muted-foreground: #5C5F63;
+
+    --destructive: #f9d6d6;
+    --destructive-foreground: #ec2b2b;
+    --success: #d1fff1;
+    --success-foreground: #35d9a8;
+    --warning: #fdf2ca;
+    --warning-foreground: #ffb443;
+    --info: #deeDff;
+    --info-foreground: #3daeff;
+
+    --border: #eae8f0;
+    --input: #e1dfff;
+    --ring: #7B5CFF;
+    --icon: #031F30;
+    --radius: 0.5rem;
+  }
+
+  *::after,
+  *::before {
+    @apply m-0 box-border border-border p-8 font-nunito tracking-[0.02em];
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+
+  .gcl-form-control:focus {
+    border: 2px solid var(--ring) !important;
+    outline: none !important;
+    box-shadow: 0 0 0 0.15rem rgba(141, 95, 255, 0.25) !important;
+  }
+}
+
+
+@layer utilities {
+  .bg-navy-blue {
+    background-color: var(--navy-blue);
+  }
+}
