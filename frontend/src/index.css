@@ -13,7 +13,8 @@
     --popover-foreground: #031F30;
 
     --navy-blue: #031F30;
-    --primary: #0868f8;
+    --primary: #06b6d4;
+    --primary-light:#0891b2;
     --primary-foreground: #ffffff;
 
     --secondary: #7B5CFF;
@@ -32,7 +33,7 @@
     --warning: #fdf2ca;
     --warning-foreground: #ffb443;
 
-    --info: #deeDff;
+    --info: #6b707f;
     --info-foreground: #3daeff;
 
     --border: #d9d7df;

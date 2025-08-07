@@ -60,6 +60,8 @@ const config = {
         "card-foreground": "var(--card-foreground)",
         navyblue: "var(--navy-blue)",
         primary: "var(--primary)",
+        // primary-dark: "var(--primary)",
+
         "primary-foreground": "var(--primary-foreground)",
         secondary: "var(--secondary)",
         "secondary-foreground": "var(--secondary-foreground)",
