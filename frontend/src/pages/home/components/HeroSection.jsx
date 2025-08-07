@@ -1,4 +1,4 @@
-const Home = () => {
+const HeroSection = () => {
   return (
     <div className="relative   bg-gradient-to-br from-gray-50 to-white shadow-xl">
       {/* <div className="absolute inset-0 overflow-hidden pointer-events-none">
@@ -58,4 +58,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default HeroSection;
