@@ -6,6 +6,12 @@ import RedirectPage from "../pages/common/RedirectPage";
 import HomeUILayout from "../layout/Home/HomeLayout";
 import AboutUs from "@/pages/companyPages/AboutUs/AboutUs";
 import DeepLearning from "@/pages/blogPages/DeepLearning/DeepLearning";
+import MachineLearning from "@/pages/blogPages/MachineLearning/MachineLearning";
+import Python from "@/pages/blogPages/python/Python";
+import JoinOurTeams from "@/pages/companyPages/Careers/JoinOurTeams";
+import OurStartups from "@/pages/companyPages/OurStartups/OurStartups";
+import ResearchPapers from "@/pages/ResearchPapers/ResearchPapers";
+import DataScience from "@/pages/blogPages/DataScience/DataScience";
 
 const router = createBrowserRouter(
   [
@@ -22,18 +28,47 @@ const router = createBrowserRouter(
           path: "/home",
           element: <Home />,
         },
+
+        // Compny pages
+
         {
           path: "/about-us",
           element: <AboutUs />,
         },
-       {
-          path: "/deep-learning",
-          element: <DeepLearning />,
+        {
+          path: "/join-our-team",
+          element: <JoinOurTeams />,
         },
         {
-          path: "/deep-learning",
+          path: "/our-startups",
+          element: <OurStartups />,
+        },
+
+        // Blog Pages
+        {
+          path: "/deep-learning-blog",
           element: <DeepLearning />,
         },
+
+        {
+          path: "/machine-learning-blog",
+          element: <MachineLearning />,
+        },
+        {
+          path: "/data-science-blog",
+          element: <DataScience />,
+        },
+        {
+          path: "/python-blog",
+          element: <Python />,
+        },
+
+        // research paper
+        {
+          path: "/research-papers",
+          element: <ResearchPapers />,
+        },
+
         {
           path: "*",
           element: <NotFoundPage />,

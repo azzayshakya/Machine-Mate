@@ -19,10 +19,26 @@ const ModernNavbar = () => {
     company: {
       label: "Company",
       items: [
-        { name: "About Us", href: "#", description: "Our story and mission" },
-        { name: "Our Startups", href: "#", description: "Portfolio companies" },
-        { name: "Research Papers", href: "#", description: "Latest research" },
-        { name: "Careers", href: "#", description: "Join our team" },
+        {
+          name: "About Us",
+          href: "about-us",
+          description: "Our story and mission",
+        },
+        {
+          name: "Our Startups",
+          href: "our-startups",
+          description: "Portfolio companies",
+        },
+        {
+          name: "Research Papers",
+          href: "research-papers",
+          description: "Latest research",
+        },
+        {
+          name: "Careers",
+          href: "join-our-team",
+          description: "Join our team",
+        },
       ],
     },
     blogs: {
@@ -30,18 +46,22 @@ const ModernNavbar = () => {
       items: [
         {
           name: "Machine Learning",
-          href: "#",
+          href: "machine-learning-blog",
           description: "ML insights & tutorials",
         },
         {
           name: "Deep Learning",
-          href: "#",
+          href: "deep-learning-blog",
           description: "Neural networks & AI",
         },
-        { name: "Python", href: "#", description: "Python programming" },
+        {
+          name: "Python",
+          href: "python-blog",
+          description: "Python programming",
+        },
         {
           name: "Data Science",
-          href: "#",
+          href: "data-science-blog",
           description: "Analytics & insights",
         },
       ],
