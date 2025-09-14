@@ -104,7 +104,7 @@ const ModernNavbar = () => {
 
           <div className="hidden items-center space-x-1 lg:flex">
             <a
-              href="#"
+              href="home"
               className="rounded-lg px-4 py-2 font-medium text-gray-700 transition-all duration-200 hover:bg-gray-50 hover:text-cyan-600"
             >
               Home
