@@ -12,6 +12,7 @@ import JoinOurTeams from "@/pages/companyPages/Careers/JoinOurTeams";
 import OurStartups from "@/pages/companyPages/OurStartups/OurStartups";
 import ResearchPapers from "@/pages/ResearchPapers/ResearchPapers";
 import DataScience from "@/pages/blogPages/DataScience/DataScience";
+import MLVlogDetail from "@/pages/blogPages/MachineLearning/MLVlogDetails";
 
 const router = createBrowserRouter(
   [
@@ -53,6 +54,10 @@ const router = createBrowserRouter(
         {
           path: "/machine-learning-blog",
           element: <MachineLearning />,
+        },
+        {
+          path: "/machine-learning-blog/:id",
+          element: <MLVlogDetail />,
         },
         {
           path: "/data-science-blog",
